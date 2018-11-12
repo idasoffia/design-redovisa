@@ -14,3 +14,103 @@
 .rm-navbar-max {
     display: none;
 }
+
+
+/*BACKGROUND */
+body{
+    background-color: rgb(231, 240, 232)
+}
+
+
+/*! LISTS*/
+
+ol, ul {
+    list-style: none;
+    display: inline;
+}
+
+/*!IMAGES*/
+.image{
+    border: rgb(40, 40,45,.5) solid 2px;
+    border-radius: 10px;
+    box-shadow: .2em .2em .5em black;
+}
+
+.right{ 
+}
+
+
+/*!NAVIGATION*/
+.Navbar{
+    position: absolute;
+    font-size: x-large;
+    color: rgb(211, 119, 53);
+    font-family: fantasy;
+    text-shadow: .1em .1em .1em black;
+    margin: 20px;
+    top: 150px;
+}
+
+/*!TEXT*/
+p{
+    font-size: medium
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    width: 650px;
+}
+
+/*!HEADINGS*/
+h1, h2, h3{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+
+/*!FORMS*/
+form{
+    width: 650px;
+    height: 400px;
+    padding: 20px;
+    position: absolute;
+    top: 250px;
+    margin: 20px;
+    border: 2px solid   rgb(40, 40,45,.5);
+    border-radius: 10px;
+    box-shadow: .2em .2em .5em black;
+    background-color: rgb(58, 83, 50, .5)
+}
+
+label{
+    display: block;
+    position: absolute;
+    line-height: 1.25;
+    overflow: auto;
+    text-align: right;
+    margin-right: 5px;
+    resize: none
+}
+
+.text{
+    box-shadow: .05em .05em .05em black;
+    margin: 2px;
+    border: 1px solid black;
+    position: relative;
+    left: 115px;
+}
+.input{
+    width:300px;
+    height: 1.25em;
+}
+.area{
+    display:block;
+    width:300px;
+    height: 8em;
+    margin-bottom: 20px;
+    overflow: auto;
+    resize: none;
+}
+button{
+    position: relative;
+    left:115px;
+    margin: 20px;
+    box-shadow: .05em .05em .05em black;
+}
+

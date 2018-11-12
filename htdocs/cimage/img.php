@@ -64,8 +64,6 @@ $verbose = getDefined(array('verbose', 'v'), true, false);
 $verboseFile = getDefined('vf', true, false);
 verbose("img.php version = " . CIMAGE_VERSION);
 
-
-
 /**
 * status - do a verbose dump of the configuration
 */

@@ -1,3 +1,3 @@
 #### Redovisa på GitHub
 
-Skriv något kort om ditt redovisa-repo och länka till [repot för me/redovisa på GitHub](XXX).
+Kursens redovisnings-sida kommer att vara levande under kursens gång och laddas kontinuerligt upp på GitHub [repot för me/redovisa på GitHub](https://github.com/idasoffia/redovisa).
