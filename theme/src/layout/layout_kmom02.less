@@ -1,0 +1,100 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+@bgColorFooter: rgb(131, 140, 123);
+@bgColorBody:rgb(231, 240, 223);
+@bgColorHeader:rgb(131, 140, 123);
+@TextColorBody:rgb(31, 40, 23);
+@bgColorForm: rgb(200,250,200, .5);
+@font: serif;
+
+/*!IMAGES*/
+.figure{ 
+//    border: rgb(40, 40,45,.5) solid 2px;
+    padding: 0;
+    margin: 0;
+//    border-radius: 10px;
+//    box-shadow: .2em .2em .5em black;
+    max-width: 100%;
+}
+
+/*!NAVIGATION*/
+
+
+/*!MAIN AND SIDEBAR LAYOUT*/
+.inner-wrap-main {
+    min-height: 600px;
+    overflow: auto;
+}
+
+.region-sidebar-right,
+.region-sidebar-left {
+    width: 30%;
+    float: left;
+}
+
+.region-main {
+    width: 70%;
+    min-height: 600px;
+    float: left;
+    overflow: auto;
+    & .has-sidebar {
+        margin-left: 0;
+    }
+}
+
+
+/*!FORMS*/
+form{
+    width: 650px;
+    height: 200px;
+    padding: 20px;
+    position: absolute;
+    top: 250px;
+    margin: 20px;
+    border: 2px solid   rgb(40, 40,45,.5);
+    border-radius: 10px;
+    box-shadow: .2em .2em .5em black;
+    background-color: @bgColorForm;
+}
+
+label{
+    display: block;
+    position: absolute;
+    line-height: 1.25;
+    overflow: auto;
+    text-align: right;
+    margin-right: 5px;
+    resize: none
+}
+
+.text{
+    box-shadow: .05em .05em .05em black;
+    margin: 2px;
+    border: 1px solid black;
+    position: relative;
+    left: 115px;
+}
+.input{
+    width:300px;
+    height: 1.25em;
+}
+.area{
+    display:block;
+    width:300px;
+    height: 8em;
+    margin-bottom: 20px;
+    overflow: auto;
+    resize: none;
+}
+button{
+    position: relative;
+    left:115px;
+    margin: 20px;
+    box-shadow: .05em .05em .05em black;
+}

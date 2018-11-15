@@ -24,6 +24,4 @@ Bra kurs, känns roligt att ha en färdig mall att arbeta med! Att snabbt se res
 Jag gillar naturen och vår hund, Ronja, så här kommer en bild för inspiration. Mycket nöje!
 
 
-[FIGURE src=image/ronja.jpg?w=600 class = "image right" caption="Hunden Ronja chillar på en klippa"]
-
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+[FIGURE src=image/ronja.jpg?w=600 class = "image right"]
